@@ -1,0 +1,177 @@
+/* mitr-300 - latin_thai */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+    url('fonts/mitr-v11-latin_thai-300.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* mitr-regular - latin_thai */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('fonts/mitr-v11-latin_thai-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  font-family: "Mitr", sans-serif;
+}
+
+.navbar navbar-expand-lg bg-light ul {
+  color: #00aea5;
+}
+
+h1 {
+  color: #00aea5;
+
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+
+}
+
+.colxxx{
+  background-image: url('./Untitled-1.jpg');
+  height: 100vh;
+  /*ไม่ได้ใช้ (Test bg_col)*/
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.topcolright{
+  color: red;
+  margin-left: 320px;
+}
+
+.col-sm-3{
+  background-color: #00aea5;
+  border-radius: 25px;
+  margin-left: 12px;
+}
+
+.col-sm-12{
+  background-color: #00aea5;
+  border-radius: 10px;
+}
+
+.col{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+input[type="search"]::placeholder {
+             
+    /* Firefox, Chrome, Opera */
+    text-align: right;
+}
+
+.blog1img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+a{
+  color: white;
+}
+
+.bloglefttexthead{
+  color: #fff;
+  font-size:x-large;
+}
+
+.bloglefttext{
+  color: #fff;
+}
+
+.user_optio_box {
+  position:relative;
+  /* ตั้งค่าให้เป็น fixed positioning */
+  top: 100 px;
+  bottom: -24px;
+  /* จะต้องปรับค่า top ให้เหมาะสมกับตำแหน่งที่คุณต้องการให icon อยู่ */
+  left: 580px;
+  /* ตั้งค่าให้ icon อยู่ทางขวา */
+  margin: 0 auto;
+}
+
+.user_optio_box a {
+  font-size: 24px;
+  color: #000000;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.nav-link{
+  color: white;
+}

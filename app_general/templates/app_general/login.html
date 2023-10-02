@@ -1,0 +1,22 @@
+{% extends 'app_general/components/base.html' %}
+{% load static %}
+
+{% block content %}
+<div>
+    <br><br><br><br><br>
+    <div class="login-container">
+        <form id="login-form">
+            <label for="username">Username&nbsp;</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username" required><br>
+            <br>
+            <label for="password">Password&nbsp;&nbsp;</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required><br>
+            <br>
+            <button type="button" onclick="login()">Log In</button>
+        </form>
+    </div>
+    <script src="{% static 'app_general/script.js' %}"></script>
+    <br><br><br><br><br>
+    <p id="message" style="text-align: center;"></p>
+</div>
+{% endblock %}
